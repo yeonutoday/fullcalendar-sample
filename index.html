@@ -42,14 +42,23 @@
 			<script src="js/fullcalendar.min.js"></script>
 			<script src="js/gcal.min.js"></script>
 
-			<link rel="stylesheet" type="text/css" href="css/style.css">	
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+
+			<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+
 			<script type="text/javascript" scr='js/gcal.js'></script>
 
 			<script>
 
+
+
+
 				$(document).ready(function() {
 					
 					$('#calendar').fullCalendar({
+
+							
 						    header: {
 						        left: 'today',
 						        center: 'prev,title,next',
@@ -59,6 +68,7 @@
 						    },
 						    googleCalendarApiKey: 'AIzaSyCD5E2Fwd8rgcbMJs3zKnzvkqSYu9mECdw',
 						    events: {
+						    	 googleCalendarApiKey: 'AIzaSyCD5E2Fwd8rgcbMJs3zKnzvkqSYu9mECdw',
 						        googleCalendarId: 'pam391kpj03la65d6cefb5ds5k@group.calendar.google.com'
 						    },
 						    selectable: true,
@@ -127,7 +137,7 @@
 				  widget.classList.toggle('active')
 				})
 			</script>
-
+<link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
     	<!--흠 이걸 어떻게 버튼란에 넣지-->

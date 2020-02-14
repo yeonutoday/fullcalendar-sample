@@ -216,11 +216,11 @@ NOTE: use percentage font sizes or else old IE chokes
 
 .fc-state-default {
 	background-color: #f5f5f5;
-	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
-	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
-	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
-	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-image: -moz-linear-gradient(top, transparent, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, transparent, #e6e6e6);
+	background-image: -o-linear-gradient(top, transparent, #e6e6e6);
+	background-image: linear-gradient(to bottom, transparent, #e6e6e6);
 	background-repeat: repeat-x;
 	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
 	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
@@ -1347,7 +1347,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 .fc-list-heading td {
-	font-weight: bold;
+	/*font-weight: bold;--위에 굵기*/
 }
 
 .fc-ltr .fc-list-heading-main { float: left; }
